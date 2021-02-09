@@ -1,0 +1,11 @@
+<h1>My tasks 🍳</h1>
+
+<% @tasks.each do |task|
+  if task.completed == true %>
+  <li>✅ - <%= link_to task.title, task_path(task) %></li>
+  <% else %>
+  <li>❌ - <%= link_to task.title, task_path(task) %></li>
+  <% end %>
+  <% end %>
+
+<a href="http://localhost:3000/tasks/create">➕ Add a new task !</a>

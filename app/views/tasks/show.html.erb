@@ -1,0 +1,12 @@
+<h1><%= @task.title %></h1>
+<div class="detail-card" ><%= @task.details %></div>
+
+<div class="statut-card">
+<% if @task.completed == true %>
+  <p>✅ - This task is completed</p>
+  <% else %>
+  <p>❌ - This task is not completed yet !<p>
+  <% end %>
+</div>
+
+<a href="http://localhost:3000/tasks">Back to list</a>

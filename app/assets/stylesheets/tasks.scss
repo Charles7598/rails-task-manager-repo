@@ -1,0 +1,41 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+h1 {
+  padding: 40px;
+  font-size: 50px;
+  margin: 15px;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.detail-card {
+  padding-left: 30px;
+  font-size: 25px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  border: 2px solid;
+  background-color: lightgray;
+  margin: 25px;
+  height: 100px;
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.statut-card {
+  margin: 15px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+a {
+  padding: 25px;
+}
